@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(68, 0, 68);
+    color: white;
+}
+
+.title{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* ace combat gubbins */
+
+.friendlyText{
+    color: blue;
+    text-align: center;
+}
+.neutralText{
+    color:yellow;
+    text-align: center;
+}
+.enemyText{
+    color: red;
+    text-align: center;
+}
+
+.friendlyName{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+.neutralName{
+    color:yellow;
+    text-align: center;
+    font-weight: bold;
+}
+.enemyName{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

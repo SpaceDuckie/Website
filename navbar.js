@@ -7,3 +7,9 @@ const toggleNavbarVisibility = () => {
 };
 
 navbarToggle.addEventListener('click', toggleNavbarVisibility);
+
+const navbarMenu = document.querySelector('#navbar-menu');
+const navbarLinksContainer = navbarMenu.querySelector('.navbar-links');
+
+navbarLinksContainer.addEventListener('click', (e) => e.stopPropagation());
+navbarMenu.addEventListener('click', toggleNavbarVisibility);

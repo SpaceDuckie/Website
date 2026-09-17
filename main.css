@@ -47,16 +47,15 @@ section {
     max-width: 1000px;
 }
 
-
-
-.text-container {
-    border-width: 2px;
-    border-color: rgb(230, 230, 230);
-    border-style: solid;
-    border-radius: 15px;
-    max-width: 500px;
+footer{
+    background-color: rgb(46, 44, 44);
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    margin-top: 150px;
+    position:fixed;
+    
 }
-
 
 
 
